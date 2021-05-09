@@ -3,8 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('../ethereum/build/CrowdfundFactory.json');
 
 const provider = new HDWalletProvider(
-    'pass trash sign point cake enjoy public supply hunt upon reject supreme',
-    // 'https://rinkeby.infura.io/v3/1194a83d8d16417cb5ec0de60deba7d7'
+    'pass square sign point cake enjoy public supply hunt upon reject supreme',
     'https://rpc-mumbai.maticvigil.com/v1/b1a03e3ae74f4177bd0f1a2a377e96f2f1d20eeb'
 );
 

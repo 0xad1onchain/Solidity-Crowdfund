@@ -9,7 +9,7 @@ if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
 } else {
   // We are on the server *OR* the user is not running metamask
   const provider = new Web3.providers.HttpProvider(
-    // "https://rinkeby.infura.io/v3/15c1d32581894b88a92d8d9e519e476c"               //Rinkeby
+    // "https://rinkeby.infura.io/v3/xxx"               //Rinkeby
     'https://rpc-mumbai.maticvigil.com/v1/b1a03e3ae74f4177bd0f1a2a377e96f2f1d20eeb'  //Matic Testnet
 
   );
