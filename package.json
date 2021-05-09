@@ -1,6 +1,6 @@
 {
   "name": "crowdfund",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "safe and secure kickstarter",
   "main": "index.js",
   "scripts": {
