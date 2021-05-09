@@ -16,13 +16,13 @@ if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
   web3 = new Web3(provider);
 }
 
-const checkBalance = async () => {
-    const acc = await web3.eth.getAccounts();
-    console.log(acc);
-    const bal = await web3.eth.getBalance(acc[0]);
-    console.log(bal);
-};
+// const checkBalance = async () => {
+//     const acc = await web3.eth.getAccounts();
+//     console.log(acc);
+//     const bal = await web3.eth.getBalance(acc[0]);
+//     console.log(bal);
+// };
 
-checkBalance();
+// checkBalance();
 
 export default web3;
